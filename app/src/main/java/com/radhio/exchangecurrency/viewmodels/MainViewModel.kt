@@ -14,7 +14,12 @@ class MainViewModel @Inject constructor(
     private val repository: MainRepository,
     private val dispatcher: DispatcherProvider
 ) : ViewModel() {
-    init {
-
+    sealed class CurrencyEvent {
+        class Success (val resultText: String): CurrencyEvent()
+        class Error (val errorText: String): CurrencyEvent()
+        object Loading : CurrencyEvent()
+        object Empty : CurrencyEvent()
     }
+
+
 }
