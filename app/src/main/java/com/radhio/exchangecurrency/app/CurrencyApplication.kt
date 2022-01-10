@@ -1,4 +1,4 @@
-package com.radhio.exchangecurrency
+package com.radhio.exchangecurrency.app
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

@@ -1,4 +1,4 @@
-package com.radhio.exchangecurrency
+package com.radhio.exchangecurrency.views
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
