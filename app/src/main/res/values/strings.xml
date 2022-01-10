@@ -35,4 +35,6 @@
         <item>KRW</item>
         <item>MYR</item>
     </string-array>
+
+    <string name="api_key">6020bd1fb2b30ab66409ff6bf90503c7</string>
 </resources>

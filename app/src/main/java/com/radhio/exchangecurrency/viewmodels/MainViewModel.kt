@@ -20,6 +20,4 @@ class MainViewModel @Inject constructor(
         object Loading : CurrencyEvent()
         object Empty : CurrencyEvent()
     }
-
-
 }
