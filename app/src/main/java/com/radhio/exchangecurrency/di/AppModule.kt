@@ -21,7 +21,7 @@ import javax.inject.Singleton
  * Created by Azmia Hoque Radhio on 1/6/2022.
  */
 
-private const val BASE_URL = "http://api.exchangeratesapi.io"
+private const val BASE_URL = "http://api.exchangeratesapi.io/"
 
 @Module
 @InstallIn(SingletonComponent::class)
